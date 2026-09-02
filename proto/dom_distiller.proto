@@ -89,6 +89,7 @@ message DomDistillerResult {
   }
 
   repeated ContentImage content_images = 10;
+  optional string text_content = 11;
 }
 
 message DomDistillerOptions {
